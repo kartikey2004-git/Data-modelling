@@ -24,7 +24,14 @@ const userSchema = new mongoose.Schema(
 
 export const User = mongoose.model("User",userSchema)
 
-// In Mongoose, a schema is a blueprint that defines the structure of documents in MongoDB collections
+
+// mongoose model jab database se connect ho jayega toh files automatically run hojati h and database ka ek structure taiyaar hojata h
+
+// model User jaise hi database mein jata h toh uska naam users hojata h ( mongoDb standardized practice )
+
+
+// In Mongoose, a schema is a blueprint that defines the structure of documents in MongoDB collections 
+
 
 // A schema defines the shape and organization of data, including fields, their types, validation rules, and default values
 
