@@ -1,7 +1,16 @@
-# Simple express demo
+# 🧱 Data Modelling
+A MongoDB practice repo focused on learning schema design, model relationships, and database structuring.
 
-> Express: fast, unopinionated, minimalist web framework for Node.js
+## 📘 Topics Covered
+- Mongoose schemas and models
 
-This project shows a simple express server serving a single HTML page and using `express.static` to serve static files.
+- One-to-one, one-to-many, many-to-many relationships
 
-Check out the [express documentation](https://expressjs.com/) for more information.
+- Data validation and referencing
+
+- Embedding vs Referencing strategy
+
+- Writing clean Mongo queries
+
+### 📚 Purpose
+The goal here was to go beyond just saving data and start thinking like a backend developer who designs data for scalability and clarity.
